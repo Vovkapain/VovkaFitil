@@ -1,0 +1,38 @@
+﻿<Window x:Class="ameameame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ameameame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550.604" Width="819.033">
+    <Grid Margin="0,0,0,-6">
+        <Grid HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="811" Background="#FF494949">
+            <Button Content="Back" HorizontalAlignment="Left" Margin="23,10,0,0" VerticalAlignment="Top" Width="75" Height="28"/>
+            <Button Content="Logout" HorizontalAlignment="Left" Margin="726,10,0,0" VerticalAlignment="Top" Width="75" Height="28"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="811" Margin="0,478,0,0" Background="#FF494949">
+            <Label Content="18 дней 8 часов и 17 минут до старта марафона!" HorizontalAlignment="Left" Margin="203,12,0,0" VerticalAlignment="Top" Width="466" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+        </Grid>
+        <Label Content="MARATHON SKILLS 2016" HorizontalAlignment="Left" Margin="115,5,0,0" VerticalAlignment="Top" Width="238" FontFamily="Segoe UI Black" FontSize="18"/>
+        <Label Content="Регистрация на марафон" HorizontalAlignment="Left" Margin="314,48,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Пожалуйста заполните всю информацию, чтобы зарегистрироваться на Skills&#xD;&#xA;Marathon 2016проводимом в Москве. Russia.&#xD;&#xA;С вами всяжутся после регистрации, для уточнения оплаты и другой информации." HorizontalAlignment="Left" Margin="115,82,0,0" VerticalAlignment="Top" Height="76" Width="624" FontSize="16" HorizontalContentAlignment="Center"/>
+        <Label Content="Вид марафона" HorizontalAlignment="Left" Margin="142,158,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Варианты комплектов" HorizontalAlignment="Left" Margin="491,158,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <CheckBox Content="42km Полный марафон($145)" HorizontalAlignment="Left" Margin="143,198,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <CheckBox Content="21km Полумарафон($75)&#xD;&#xA;" HorizontalAlignment="Left" Margin="142,234,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <CheckBox Content="5km Малая дистанция($20)&#xD;&#xA;" HorizontalAlignment="Left" Margin="142,270,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton Content="Вариант А ($0): Номер бегуна +&#xD;&#xA; RFID браслет.&#xD;&#xA;" HorizontalAlignment="Left" Margin="480,194,0,0" VerticalAlignment="Top" FontSize="14" Checked="RadioButton_Checked"/>
+        <RadioButton Content="Вариант В ($20): вариант А +&#xD;&#xA; бейсболка + бутылка воды.&#xD;&#xA;" HorizontalAlignment="Left" Margin="480,249,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton Content="Вариант С ($45): Вариант В +&#xD;&#xA; футболка + сувенирный браслет.&#xD;&#xA;" HorizontalAlignment="Left" Margin="480,304,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Детали спонсорства" HorizontalAlignment="Left" Margin="168,304,0,0" VerticalAlignment="Top" Width="167" FontSize="16"/>
+        <Label Content="Взнос:" HorizontalAlignment="Left" Margin="146,342,0,0" VerticalAlignment="Top"/>
+        <Label Content="Сумма взноса:" HorizontalAlignment="Left" Margin="101,373,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="195,373,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="195,346,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Регистрационный взнос" HorizontalAlignment="Left" Margin="493,364,0,0" VerticalAlignment="Top" Width="209" FontSize="16"/>
+        <Label Content="$" HorizontalAlignment="Left" Margin="491,400,0,0" VerticalAlignment="Top" Height="57" Width="40" FontSize="36"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="549,400,0,0" VerticalAlignment="Top" Height="57" Width="134" FontSize="36"/>
+        <Image Source="resourses\img\inf.png" Margin="326,346,458,156"></Image>
+    </Grid>
+</Window>

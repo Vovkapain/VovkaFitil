@@ -1,0 +1,5 @@
+C:\Users\IP2030\source\repos\ameameame\ameameame\obj\Debug\ameameame.csproj.AssemblyReference.cache
+C:\Users\IP2030\source\repos\ameameame\ameameame\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\IP2030\source\repos\ameameame\ameameame\obj\Debug\App.g.cs
+C:\Users\IP2030\source\repos\ameameame\ameameame\obj\Debug\ameameame_MarkupCompile.cache
+C:\Users\IP2030\source\repos\ameameame\ameameame\obj\Debug\ameameame_MarkupCompile.lref
